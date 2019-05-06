@@ -13,40 +13,40 @@ All images are based on openjdk:8-alpine (JDK 8.191.12-r0)
 
 | API level        | Command                                        | Info              |
 |------------------|------------------------------------------------|-------------------|
-| Android 21 (5.0) | `docker pull diego-vieira/alpine-android:android-21` | [Info][android21] |
-| Android 22 (5.1) | `docker pull diego-vieira/alpine-android:android-22` | [Info][android22] |
-| Android 23 (6.0) | `docker pull diego-vieira/alpine-android:android-23` | [Info][android23] |
-| Android 24 (7.0) | `docker pull diego-vieira/alpine-android:android-24` | [Info][android24] |
-| Android 25 (7.1) | `docker pull diego-vieira/alpine-android:android-25` | [Info][android25] |
-| Android 26 (8.0) | `docker pull diego-vieira/alpine-android:android-26` | [Info][android26] |
-| Android 27 (8.1) | `docker pull diego-vieira/alpine-android:android-27` | [Info][android27] |
-| Android 28 (9.0) | `docker pull diego-vieira/alpine-android:android-28` | [Info][android28] |
+| Android 21 (5.0) | `docker pull diegovieira/alpine-android:android-21` | [Info][android21] |
+| Android 22 (5.1) | `docker pull diegovieira/alpine-android:android-22` | [Info][android22] |
+| Android 23 (6.0) | `docker pull diegovieira/alpine-android:android-23` | [Info][android23] |
+| Android 24 (7.0) | `docker pull diegovieira/alpine-android:android-24` | [Info][android24] |
+| Android 25 (7.1) | `docker pull diegovieira/alpine-android:android-25` | [Info][android25] |
+| Android 26 (8.0) | `docker pull diegovieira/alpine-android:android-26` | [Info][android26] |
+| Android 27 (8.1) | `docker pull diegovieira/alpine-android:android-27` | [Info][android27] |
+| Android 28 (9.0) | `docker pull diegovieira/alpine-android:android-28` | [Info][android28] |
 
 ## Use as Base Image
 
 | API level        | Base Image                              |
 |------------------|-----------------------------------------|
-| Android 21 (5.0) | `FROM diego-vieira/alpine-android:android-21` |
-| Android 22 (5.1) | `FROM diego-vieira/alpine-android:android-22` |
-| Android 23 (6.0) | `FROM diego-vieira/alpine-android:android-23` |
-| Android 24 (7.0) | `FROM diego-vieira/alpine-android:android-24` |
-| Android 25 (7.1) | `FROM diego-vieira/alpine-android:android-25` |
-| Android 26 (8.0) | `FROM diego-vieira/alpine-android:android-26` |
-| Android 27 (8.1) | `FROM diego-vieira/alpine-android:android-27` |
-| Android 28 (9.0) | `FROM diego-vieira/alpine-android:android-28` |
+| Android 21 (5.0) | `FROM diegovieira/alpine-android:android-21` |
+| Android 22 (5.1) | `FROM diegovieira/alpine-android:android-22` |
+| Android 23 (6.0) | `FROM diegovieira/alpine-android:android-23` |
+| Android 24 (7.0) | `FROM diegovieira/alpine-android:android-24` |
+| Android 25 (7.1) | `FROM diegovieira/alpine-android:android-25` |
+| Android 26 (8.0) | `FROM diegovieira/alpine-android:android-26` |
+| Android 27 (8.1) | `FROM diegovieira/alpine-android:android-27` |
+| Android 28 (9.0) | `FROM diegovieira/alpine-android:android-28` |
 
 ## Run container
 
 | API level        | Command                                                |
 |------------------|--------------------------------------------------------|
-| Android 21 (5.0) | `docker run --rm -it diego-vieira/alpine-android:android-21` |
-| Android 22 (5.1) | `docker run --rm -it diego-vieira/alpine-android:android-22` |
-| Android 23 (6.0) | `docker run --rm -it diego-vieira/alpine-android:android-23` |
-| Android 24 (7.0) | `docker run --rm -it diego-vieira/alpine-android:android-24` |
-| Android 25 (7.1) | `docker run --rm -it diego-vieira/alpine-android:android-25` |
-| Android 26 (8.0) | `docker run --rm -it diego-vieira/alpine-android:android-26` |
-| Android 27 (8.1) | `docker run --rm -it diego-vieira/alpine-android:android-27` |
-| Android 28 (9.0) | `docker run --rm -it diego-vieira/alpine-android:android-28` |
+| Android 21 (5.0) | `docker run --rm -it diegovieira/alpine-android:android-21` |
+| Android 22 (5.1) | `docker run --rm -it diegovieira/alpine-android:android-22` |
+| Android 23 (6.0) | `docker run --rm -it diegovieira/alpine-android:android-23` |
+| Android 24 (7.0) | `docker run --rm -it diegovieira/alpine-android:android-24` |
+| Android 25 (7.1) | `docker run --rm -it diegovieira/alpine-android:android-25` |
+| Android 26 (8.0) | `docker run --rm -it diegovieira/alpine-android:android-26` |
+| Android 27 (8.1) | `docker run --rm -it diegovieira/alpine-android:android-27` |
+| Android 28 (9.0) | `docker run --rm -it diegovieira/alpine-android:android-28` |
 
 ## Extending from Alpine Android Base
 
